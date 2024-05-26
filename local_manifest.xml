@@ -12,7 +12,6 @@
   <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="merlinx" revision="lineage-21" />
   
         <!-- sepolicy -->
-  <remove-project name="device/mediatek/sepolicy_vndr" />
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-21" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-21" />
 </manifest>
