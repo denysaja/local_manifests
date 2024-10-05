@@ -12,4 +12,6 @@
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
   <remove-project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="sagit-id" revision="lineage-21.0" />
+  <remove-project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="pixelage" />
+  <project path="system/sepolicy" name="android_system_sepolicy_los" remote="sagit-id" revision="lineage-21.0" />
 </manifest>
