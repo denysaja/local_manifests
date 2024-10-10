@@ -10,5 +10,4 @@
   <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="pixelage" />
   <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998" remote="sagit-id" revision="pixelage" />
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sagit-id" revision="lineage-21" />
 </manifest>
