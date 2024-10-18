@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <!-- Remote -->
-        <remote name="sagit-id" fetch="https://github.com/Sagit-A14" clone-depth="1" />
+        <remote name="sagit-id" fetch="https://github.com/Sagit-A15" clone-depth="1" />
 
         <!-- Trees -->
-  <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="derp14" />
-  <project path="device/xiaomi/msm8998-common" name="android_device_xiaomi_msm8998-common" remote="sagit-id" revision="derp14" />
-  <project path="vendor/xiaomi/sagit" name="proprietary_vendor_xiaomi_sagit" remote="sagit-id" revision="derp14" />
-  <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="derp14" />
-  <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998" remote="sagit-id" revision="lineage-21" />
-  <remove-project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" groups="qcom,legacy-qcom" remote="derp" revision="14-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="sagit-id" revision="14" />
+  <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="derp" />
+  <project path="device/xiaomi/msm8998-common" name="android_device_xiaomi_msm8998-common" remote="sagit-id" revision="derp" />
+  <project path="vendor/xiaomi/sagit" name="proprietary_vendor_xiaomi_sagit" remote="sagit-id" revision="derp" />
+  <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="derp" />
+  <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998" remote="sagit-id" revision="derp" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" groups="qcom,legacy-qcom" remote="derp" revision="14-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="sagit-id" revision="15" />
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="sagit-id" revision="lineage-21" />
-  <remove-project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="derp" />
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="sagit-id" revision="lineage-21.0" />
-  <remove-project path="packages/modules/common" name="packages_modules_common" groups="pdk" remote="derp" />
-  <project path="packages/modules/common" name="android_packages_modules_common" remote="sagit-id" revision="lineage-21.0" />
-  <remove-project path="vendor/derp" name="vendor_derp" remote="derp" />
-  <project path="vendor/derp" name="vendor_derp" remote="sagit-id" revision="14" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="sagit-id" revision="derp" />
 </manifest>
