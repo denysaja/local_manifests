@@ -14,4 +14,6 @@
   <remove-project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="sagit-id" revision="lineage-21.0" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sagit-id15" revision="lineage-21" />
+  <remove-project path="vendor/extra" name="vendor_extra" remote="alpha" />
+  <project path="vendor/extra" name="vendor_extra" remote="sagit-id" revision="alpha-14" />
 </manifest>
