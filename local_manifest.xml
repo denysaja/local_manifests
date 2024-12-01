@@ -2,7 +2,6 @@
 <manifest>
         <!-- Remote -->
         <remote name="sagit-id" fetch="https://github.com/Sagit-A14" clone-depth="1" />
-        <remote name="sagit-id15" fetch="https://github.com/Sagit-A15" clone-depth="1" />
 
         <!-- Trees -->
   <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="alpha14-gapps" />
@@ -13,5 +12,4 @@
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
   <remove-project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="sagit-id" revision="lineage-21.0" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sagit-id15" revision="lineage-21" />
 </manifest>
